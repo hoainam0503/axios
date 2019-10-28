@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import PersonList from './components/PersonList';
+import PersonInput from './components/PersonInput';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <PersonInput />
+      <PersonList />
     </div>
   );
 }
